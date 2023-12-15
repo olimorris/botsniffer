@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/olimorris/botsniffer/assets/9512444/0be14f53-cebe-47cd-96eb-822ce1443c5c">
+    <img src="https://github.com/olimorris/botsniffer/assets/9512444/ac241a2f-f98a-47d7-a7ff-144adb5a0b03">
 </p>
 
 <h1 align="center">BotSniffer</h1>
@@ -11,7 +11,9 @@
 <a href="https://github.com/olimorris/botsniffer/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/olimorris/botsniffer/test.yml?branch=main&label=tests&style=for-the-badge"></a>
 </p>
 
-<p align="center">Generate a dependency tree for your Automation 360 bots</p>
+<p align="center">
+    Recursively searches through your exported bots, looking for `runTask` commands
+</p>
 
 ## ✨ Features
 
@@ -26,7 +28,7 @@
 
 ## 📦 Installation
 
-Install with [https://pypi.org/project/pip/](pip) via:
+Install with [pip](https://pypi.org/project/pip) via:
 
 ```sh
 pip install botsniffer
